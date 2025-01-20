@@ -1,0 +1,15 @@
+fruits = ["Apple","Banana","Cherry","Date","orange"]
+print("Accessing emlements using indexing: ")
+print(f"First fruit : {fruits[0]}")
+print(f"First fruit : {fruits[2]}")
+print(f"First fruit : {fruits[-1]}")
+fruits[1]="Kiwies"
+print(f"modified list is : {fruits}")
+fruits.append("Watermelon")
+print(f"List after appending is : {fruits}")
+fruits.remove("Watermelon")
+print(f"modified list is : {fruits}")
+length=len(fruits)
+print(length)
+fruits.sort()
+print(f"sorted kust is : {fruits}")
